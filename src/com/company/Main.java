@@ -8,8 +8,10 @@ public class Main {
         double y = 80.00;
 
         double total = (x + y) * 100;
+        System.out.println("Total value is " + total);
 
         double remainder = total % 40.00;
+        System.out.println("The remainder value is " + remainder);
 
         boolean isZero = (remainder == 0) ? true : false;
 
